@@ -19,7 +19,7 @@ exp1_boolean_min.v	Verilog design file
 exp1_boolean_min_tb.v	Verilog testbench
 exp1_boolean_min.vcd	VCD waveform dump generated during simulation
 ## Verilog Program
-...
+```
 module boolean(
 input wire A, 
 input wire B, 
@@ -28,9 +28,9 @@ output wire F
 assign F = (~A) | B ;    // F = A' + B 
 
 endmodule
-...
+```
 ## TestBench Program
-...
+```
 module tb;
     reg A, B;
     wire F;
@@ -60,7 +60,7 @@ module tb;
     end
 
 endmodule
-...
+```
 ## Truth Table
 
  <img width="637" height="249" alt="image" src="https://github.com/user-attachments/assets/da727d62-a1ae-4ba8-9c11-ca8c24077f33" />
